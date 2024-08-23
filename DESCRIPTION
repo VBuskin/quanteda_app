@@ -1,0 +1,20 @@
+Package: QuantedaApp
+Title: A GUI Wrapper for Quanteda
+Version: 0.0.1
+Authors@R: 
+    person("Vladimir", "Buskin", , "VBuskin@ku.de", role = c("aut", "cre"))
+Description: This mini-package provides a GUI for interacting with the R package "quanteda".
+License: use_gpl3_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    DT,
+    ggplot2,
+    openxlsx,
+    pkgload,
+    quanteda,
+    quanteda.textstats,
+    shiny,
+    shinythemes
