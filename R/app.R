@@ -78,7 +78,7 @@ run_quanteda_app <- function(...) {
   shiny::p("This app is open source and distributed under the GNU General Public License version 3 (GPLv3). This means you are free to use, modify, and distribute the software under the terms of this license. For full details of the GPLv3 license, please visit: ", 
     shiny::a("https://www.gnu.org/licenses/gpl-3.0.html", href="https://www.gnu.org/licenses/gpl-3.0.html", target="_blank")),
   shiny::p("The full source code for this app is available on GitHub at: ",
-    shiny::a("https://github.com/VBuskin/quanteda_app/blob/main/R/app.R", href="https://github.com/VBuskin/quanteda_app/blob/main/app.R", target="_blank")),
+    shiny::a("https://github.com/VBuskin/quanteda_app/blob/main/R/app.R", href="https://github.com/VBuskin/quanteda_app/blob/main/R/app.R", target="_blank")),
   shiny::p("Users are to explore the code, contribute improvements, and adapt it for their own needs, in accordance with the GPLv3 license.")
                     ),
     ),
