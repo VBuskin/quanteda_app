@@ -27,12 +27,12 @@ Follow the instructions in the console. When prompted to update packages, do not
 
 Whenever you re-open RStudio, follow these steps to run the app:
 
-3. Load the `QuantedaApp`:
+4. Load the `QuantedaApp`:
   ```R
    library("QuantedaApp")
    ```
 
-3. Launch the app:
+5. Launch the app:
   ```R
   run_quanteda_app()
    ```
