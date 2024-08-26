@@ -150,7 +150,7 @@ run_quanteda_app <- function(...) {
       if (query != "") {
         # Perform actual query on corpus object
         result <- quanteda::kwic(corpus_data, 
-                                 pattern = query, 
+                                 pattern = phrase(query), 
                                  valuetype = "regex", 
                                  window = window_size, 
                                  case_insensitive = !case_sensitive)
