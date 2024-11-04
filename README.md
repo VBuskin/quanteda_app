@@ -1,5 +1,7 @@
 # QuantedaApp
 
+This app is a straightforward GUI for the R package [quanteda](https://github.com/quanteda/quanteda) (Kenneth et al. 2018).
+
 ## Installation Instructions
 
 ### First-time Setup
@@ -44,3 +46,6 @@ If you encounter any issues during installation or while running the app, please
 - Ensure you have the latest version of R and RStudio installed.
 - Check your internet connection, as the installation requires downloading packages.
 - Check for any syntax errors in your query.
+
+## References
+Benoit, Kenneth, Kohei Watanabe, Haiyan Wang, Paul Nulty, Adam Obeng, Stefan Müller, and Akitaka Matsuo. 2018. “Quanteda: An r Package for the Quantitative Analysis of Textual Data.” Journal of Open Source Software 3 (30): 774. https://doi.org/10.21105/joss.00774.
